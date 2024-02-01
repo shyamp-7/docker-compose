@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  train:
+    image: train:count1
+    ports:
+      - "85:80"
+  flight:
+    image: flight:count1
+    ports:
+      - "84:80"
